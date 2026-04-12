@@ -1,1 +1,3 @@
-# Digital-Design-and-Fabrication
+# Portfolio
+
+## Author: Niklas Schmidt
