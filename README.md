@@ -5,7 +5,7 @@
 
 ---
 
-## Exercise 1
+## Exercise 1: Electrical Circuits
 <img src="photos/01/20260430-4.jpg" alt="profile picture" width="400"/>
 
 ### Task 1: LED Control Circuit
@@ -33,7 +33,13 @@ In the following video, you can see that the switch works.
 </video>
 
 #### Task 1.3: Dimmable LED Circuit
-TODO: Proportional to the resistance?
+As we turned the potentiometer, the brightness increased gradually after the minimal current necessary for the LED has been reached. Then it rised quickly near the "on" threshold. The LED does not brighten linearly with knob position.
+
+| Position | V<sub>LED</sub> [V] | V<sub>2</sub> [V] |
+|--------|-----------------|--------------------|
+| a) full brightness    | 3.0             | 3.0                |
+| b) dimmed  | 2.3             | 2.3                |
+| c) OFF  | 2.0             | 2.0             |
 
 ### Task 2: Transistor Switch Circuit
 <img src="photos/01/20260430-6-2.jpg" alt="profile picture" width="400"/>
@@ -50,8 +56,6 @@ Otherwise, the implementation worked well and the result was a white glowing LED
 <img src="photos/01/20260430-8-2.jpg" alt="profile picture" width="400"/>
 
 #### Task 2.2: Dimmable LED Strip
-TODO: 2.2a
-
 It became somewhat more complicated when we tried to implement the second subtask. The switch caused issues because the LED strip did not light up. In the end, we cannot say with 100% certainty what the problem was, but we suspect that the switch cables were damaged. However, with Mikołaj’s help, we simply removed it to proceed with the task.
 
 In this task, we were supposed to integrate a PWM generator and measure what happens when, on the one hand, the duty cycle is changed at a constant frequency (90 Hz), and on the other hand, the frequency is changed at a constant duty cycle (50%).
@@ -73,6 +77,11 @@ Here are the remaining photos with constant frequency and varying duty cycle:
 <img src="photos/01/20260430-11-2.jpg" alt="profile picture" width="400"/>
 <img src="photos/01/20260430-12-2.jpg" alt="profile picture" width="400"/>
 <img src="photos/01/20260430-13-2.jpg" alt="profile picture" width="400"/>
+
+Compared to the LED you can notice that the LED-Strip was able to glow much darker thanks to the use of the PWM generator.
+While the LED needed a minimal voltage / current and had therefore also a minimal brightness, the LED stip could glow darker,
+because of the optical illusion caused by the PWM generator, which switched the light / current (with the transistor) off for unnoticeable time periods.
+
 ---
 
 ## Exercise 2
