@@ -19,18 +19,16 @@ We observed that the larger the resistance in the circuit, the higher the voltag
 | 1000   | 2.5             | 2.5                |
 | 4700   | 2.9             | 2.2                |
 
-<img src="photos/01/20260430-6.jpg" alt="profile picture" width="400"/>
+<img src="photos/01/20260430-6.jpg" alt="picture" width="400"/>
 
 #### Task 1.2: Switchable LED Circuit
-<img src="photos/01/20260430-13.jpg" alt="profile picture" width="400"/>
+<img src="photos/01/20260430-13.jpg" alt="picture" width="400"/>
 
 In this subtask, we observed that operating the switch turned the LED on or off. When we flipped the switch in the opposite direction, the behavior reversed: if the LED was previously off, it turned on, and vice versa.
 
 In the following video, you can see that the switch works.
 
-<video controls width="400">
-  <source src="photos/01/DF-FHD_169.mp4" type="video/mp4">
-</video>
+[Video of the switch](photos/01/DF-FHD_169.mp4)
 
 #### Task 1.3: Dimmable LED Circuit
 As we turned the potentiometer, the brightness increased gradually after the minimal current necessary for the LED has been reached. Then it rised quickly near the "on" threshold. The LED does not brighten linearly with knob position.
@@ -42,7 +40,7 @@ As we turned the potentiometer, the brightness increased gradually after the min
 | c) OFF  | 2.0             | 2.0             |
 
 ### Task 2: Transistor Switch Circuit
-<img src="photos/01/20260430-6-2.jpg" alt="profile picture" width="400"/>
+<img src="photos/01/20260430-6-2.jpg" alt="picture" width="400"/>
 
 #### Task 2.1: Switchable LED Strip
 First, we recreated the circuit based on the template from the exercise sheet. Essentially, the switch simply turned the LED strip on and off.
@@ -53,7 +51,7 @@ The transistor acts as an electronic switch. When a positive voltage (5V) is app
 
 Otherwise, the implementation worked well and the result was a white glowing LED strip!
 
-<img src="photos/01/20260430-8-2.jpg" alt="profile picture" width="400"/>
+<img src="photos/01/20260430-8-2.jpg" alt="picture" width="400"/>
 
 #### Task 2.2: Dimmable LED Strip
 It became somewhat more complicated when we tried to implement the second subtask. The switch caused issues because the LED strip did not light up. In the end, we cannot say with 100% certainty what the problem was, but we suspect that the switch cables were damaged. However, with Mikołaj’s help, we simply removed it to proceed with the task.
@@ -66,17 +64,15 @@ If, on the other hand, only the frequency is changed, a varying degree of flicke
 
 In the video, the flickering at 5 Hz can be observed.
 
-<video controls width="400">
-  <source src="photos/01/DF2-FHD_169.mp4" type="video/mp4">
-</video>
+[Video of the blinking LED-Strip](photos/01/DF2-FHD_169.mp4)
 
 Here are the remaining photos with constant frequency and varying duty cycle:
 
-<img src="photos/01/20260430-9-2.jpg" alt="profile picture" width="400"/>
-<img src="photos/01/20260430-10-2.jpg" alt="profile picture" width="400"/>
-<img src="photos/01/20260430-11-2.jpg" alt="profile picture" width="400"/>
-<img src="photos/01/20260430-12-2.jpg" alt="profile picture" width="400"/>
-<img src="photos/01/20260430-13-2.jpg" alt="profile picture" width="400"/>
+<img src="photos/01/20260430-9-2.jpg" alt="picture" width="400"/>
+<img src="photos/01/20260430-10-2.jpg" alt="picture" width="400"/>
+<img src="photos/01/20260430-11-2.jpg" alt="picture" width="400"/>
+<img src="photos/01/20260430-12-2.jpg" alt="picture" width="400"/>
+<img src="photos/01/20260430-13-2.jpg" alt="picture" width="400"/>
 
 Compared to the LED you can notice that the LED-Strip was able to glow much darker thanks to the use of the PWM generator.
 While the LED needed a minimal voltage / current and had therefore also a minimal brightness, the LED stip could glow darker,
