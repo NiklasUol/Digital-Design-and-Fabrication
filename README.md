@@ -6,6 +6,7 @@
 ---
 
 ## Exercise 1: Electrical Circuits
+<!--suppress CheckImageSize -->
 <img src="photos/01/20260430-4.jpg" alt="profile picture" width="400"/>
 
 ### Task 1: LED Control Circuit
@@ -78,9 +79,19 @@ Compared to the LED you can notice that the LED-Strip was able to glow much dark
 While the LED needed a minimal voltage / current and had therefore also a minimal brightness, the LED stip could glow darker,
 because of the optical illusion caused by the PWM generator, which switched the light / current (with the transistor) off for unnoticeable time periods.
 
+
+
+
+
+
+
+
+
+
+
 ---
 
-## Exercise 2
+## Exercise 2: Introduction to Arduino
 
 
 <img src="photos/02/20260507-2.jpg" alt="profile picture" width="400"/>
@@ -110,19 +121,17 @@ With both fixes, it worked then.
 
 <img src="photos/02/20260507-8.jpg" alt="profile picture" width="400"/>
 
-There was a missing delay between LOW and HIGH, and the control pin had to be changed from 4 to 13. If the delay between the highs is effectively 0, we don't get three alarm tones, but a continuous one.
+There was a missing delay between LOW and HIGH in the code, and the control pin had to be changed from 4 to 13. If the delay between the highs is effectively 0, we don't get three alarm tones, but a continuous one.
 
 <img src="photos/02/20260507-9.jpg" alt="profile picture" width="400"/>
 
 Also noteworthy: If we omit the resistor, the sound is very loud. We captured this in these two videos.
 
-<video controls width="400">
-  <source src="photos/02/01-4K30.mp4" type="video/mp4">
-</video>
+[Video of the silent buzzer with the resistor](photos/02/01-4K30.mp4)
 
-<video controls width="400">
-  <source src="photos/02/02-4K30.mp4" type="video/mp4">
-</video>
+[Video of the loud buzzer without the resistor](photos/02/02-4K30.mp4)
+
+
 
 ### Sub-circuit 2 - Connecting the LED screen
 <img src="photos/02/20260507-10.jpg" alt="profile picture" width="400"/>
@@ -141,6 +150,8 @@ The inscription "Whatever makes sense to show" was then successfully displayed.
 
 <img src="photos/02/20260507-15.jpg" alt="profile picture" width="400"/>
 
+
+
 ### Sub-circuit 3 - Expanding the setup with a Real Time Clock
 <img src="photos/02/20260507-17.jpg" alt="profile picture" width="400"/>
 
@@ -150,9 +161,8 @@ Subsequently, we verified that the module reliably provides the current time and
 
 In the video, you can see that thanks to the module, the seconds continue to count even when the Arduino has no power.
 
-<video controls width="400">
-  <source src="photos/02/03-4K30.mp4" type="video/mp4">
-</video>
+[Video of the RTC-Module saving the time](photos/02/03-4K30.mp4)
+
 
 ### Sub-circuit 4 - Using the Push Button
 <img src="photos/02/20260507-18.jpg" alt="profile picture" width="400"/>
@@ -190,6 +200,4 @@ Problems:
 
 Below is a video showing the functionality of the clock.
 
-<video controls width="400">
-  <source src="photos/02/03-4K30.mp4" type="video/mp4">
-</video>
+!!!!!!  TODO: INSERT VIDEO  !!!!!!!
