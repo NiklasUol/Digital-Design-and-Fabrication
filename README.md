@@ -179,10 +179,23 @@ This way, we could later reliably control the start/stop and time setting in the
 
 In the final step, we then built and programmed the actual alarm clock. Here, all subtasks came together, and in the end, we added our own functions and revised and improved the given code.
 
-TODO Code improvements:
-- Music library https://github.com/robsoncouto/arduino-songs
-- Adaptation of the library: End with red button
--
+First we improved the alarm sound of our alarm clock. To do that, we had the idea to change the simple beeping to a more advanced melody.
+Because, we aren't the greatest musicians we used the following library to do so: https://github.com/robsoncouto/arduino-songs.
+We planned to include three different melodies we selected from the library. The Mario Theme, Pink Panther and Tetris. If the alarm was triggered, one of the melodies should have been played.
+Unfortunately, the RAM of the Arduino UNO wasn't sufficiently big enough for the tree melodies. Therefore, we had to simplify our idea and only include one of these songs. Our decision was the Tetris-Melody.
+
+But after we succeeded to play this melody as our new alarm sound, we had another problem. The melody wasn't stoppable. Because the code run though the tones (and delays) step by step,
+there was no time to check, whether the red button, which should stop the alarm, was pressed or not. To fix that problem, and be able to stop the alarm at any time, we researched how concurrency
+could be handled with the Arduino UNO. We hoped that there would be some kind of multithreading and that it would be possible to simply start the alarm in another thread and stop this thread, if
+the button is pressed. Unfortunately there is no multithreading :/  
+Therefore we analysed the code of the song-library and expanded it regarding the possibility stop the melody. Then, this feature working like we had planned it :)  
+
+Afterward, we tried to improve the controls of the alarm clock. The controls of the given code weren't always very user-friendly. In fact, we raged sometimes a bit, if we tried to set e.g. the minutes of the alarm time.
+If we wanted to set the minute at 40, but skipped accidentally one minute and set it to 41, we had to press the button controlling the minutes 59 times. For that reason we tried to protect our fingertips and program the
+controls so that you could
+
+TODO: COMPLETE THE TEXT
+
 
 Features:
 - Display shows current time
