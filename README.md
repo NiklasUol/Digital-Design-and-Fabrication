@@ -7,7 +7,7 @@
 
 ## Exercise 1: Electrical Circuits
 <!--suppress CheckImageSize -->
-<img src="photos/01/20260430-4.jpg" alt="profile picture" width="400"/>
+<img src="photos/01/20260430-4.jpg" alt="picture" width="400"/>
 
 ### Task 1: LED Control Circuit
 
@@ -94,36 +94,36 @@ because of the optical illusion caused by the PWM generator, which switched the 
 ## Exercise 2: Introduction to Arduino
 
 
-<img src="photos/02/20260507-2.jpg" alt="profile picture" width="400"/>
+<img src="photos/02/20260507-2.jpg" alt="picture" width="400"/>
 
 ### Sub-circuit 1 - Connecting the buzzer
 In this first task, we were supposed to connect a buzzer to the Arduino, run a test program on it, and modify parameters in it.
 
 First, we placed the buzzer and a resistor on a breadboard and connected it to the Arduino. This worked without any issues.
 
-<img src="photos/02/20260507-3.jpg" alt="profile picture" width="400"/>
+<img src="photos/02/20260507-3.jpg" alt="picture" width="400"/>
 
 However, when uploading the test program, we got an exit status 1 compilation error.
 
-<img src="photos/02/20260507-4.jpg" alt="profile picture" width="400"/>
+<img src="photos/02/20260507-4.jpg" alt="picture" width="400"/>
 
 This frustrated Julian a bit.
 
-<img src="photos/02/20260507-1_2.jpg" alt="profile picture" width="400"/>
+<img src="photos/02/20260507-1_2.jpg" alt="picture" width="400"/>
 
 After some debugging, we found out that the problem was a missing library. We had to install the "Adafruit BusIO" library for the program to compile.
 
-<img src="photos/02/20260507-5.jpg" alt="profile picture" width="400"/>
+<img src="photos/02/20260507-5.jpg" alt="picture" width="400"/>
 
 With both fixes, it worked then.
 
-<img src="photos/02/20260507-7.jpg" alt="profile picture" width="400"/>
+<img src="photos/02/20260507-7.jpg" alt="picture" width="400"/>
 
-<img src="photos/02/20260507-8.jpg" alt="profile picture" width="400"/>
+<img src="photos/02/20260507-8.jpg" alt="picture" width="400"/>
 
 There was a missing delay between LOW and HIGH in the code, and the control pin had to be changed from 4 to 13. If the delay between the highs is effectively 0, we don't get three alarm tones, but a continuous one.
 
-<img src="photos/02/20260507-9.jpg" alt="profile picture" width="400"/>
+<img src="photos/02/20260507-9.jpg" alt="picture" width="400"/>
 
 Also noteworthy: If we omit the resistor, the sound is very loud. We captured this in these two videos.
 
@@ -134,26 +134,26 @@ Also noteworthy: If we omit the resistor, the sound is very loud. We captured th
 
 
 ### Sub-circuit 2 - Connecting the LED screen
-<img src="photos/02/20260507-10.jpg" alt="profile picture" width="400"/>
+<img src="photos/02/20260507-10.jpg" alt="picture" width="400"/>
 
 In the next subtask, an LED screen was connected to the Arduino. This worked wonderfully thanks to the clear circuit diagram. Without it, we wouldn't have intuitively understood what SCL and SDA are and where they are connected on the Arduino.
 
-<img src="photos/02/20260507-11.jpg" alt="profile picture" width="400"/>
+<img src="photos/02/20260507-11.jpg" alt="picture" width="400"/>
 
 Additionally, the display's resistor had to be adjusted using a screwdriver on the back.
 
 Using the provided test program for the display, we then found out what the I2C address of the display is. This allowed us to control it and display text in the first place.
 
-<img src="photos/02/20260507-12.jpg" alt="profile picture" width="400"/>
+<img src="photos/02/20260507-12.jpg" alt="picture" width="400"/>
 
 The inscription "Whatever makes sense to show" was then successfully displayed.
 
-<img src="photos/02/20260507-15.jpg" alt="profile picture" width="400"/>
+<img src="photos/02/20260507-15.jpg" alt="picture" width="400"/>
 
 
 
 ### Sub-circuit 3 - Expanding the setup with a Real Time Clock
-<img src="photos/02/20260507-17.jpg" alt="profile picture" width="400"/>
+<img src="photos/02/20260507-17.jpg" alt="picture" width="400"/>
 
 In the third subtask, we were supposed to connect an RTC module, to which a battery is attached, which keeps the time even when the Arduino is turned off. We first placed the module on the breadboard and then established the I2C connections to the Arduino. It was important to connect SDA and SCL correctly and insert the battery into the module so that the real-time clock doesn't reset during a power outage.
 
@@ -165,7 +165,7 @@ In the video, you can see that thanks to the module, the seconds continue to cou
 
 
 ### Sub-circuit 4 - Using the Push Button
-<img src="photos/02/20260507-18.jpg" alt="profile picture" width="400"/>
+<img src="photos/02/20260507-18.jpg" alt="picture" width="400"/>
 
 In the last subtask, we first connected one button and later several buttons to the Arduino. First, we tested a single button to ensure that the digital input signal is read correctly. Then we expanded the circuit and built in several buttons to support different functions such as alarm stop, confirmation, and menu navigation.
 
@@ -173,7 +173,7 @@ We made sure to use the buttons with pull-down resistors so that the input doesn
 
 This way, we could later reliably control the start/stop and time setting in the alarm project via button press.
 
-<img src="photos/02/20260507-27.jpg" alt="profile picture" width="400"/>
+<img src="photos/02/20260507-27.jpg" alt="picture" width="400"/>
 
 ### Final task - Building the Alarm Clock
 
@@ -192,24 +192,16 @@ Therefore we analysed the code of the song-library and expanded it regarding the
 
 Afterward, we tried to improve the controls of the alarm clock. The controls of the given code weren't always very user-friendly. In fact, we raged sometimes a bit, if we tried to set e.g. the minutes of the alarm time.
 If we wanted to set the minute at 40, but skipped accidentally one minute and set it to 41, we had to press the button controlling the minutes 59 times. For that reason we tried to protect our fingertips and program the
-controls so that you could
+controls so that you could increase the minutes with the green button and decrease them with the yellow button. Now you can press the red button and the alarm-hour starts blinking.
+Then, you can set it with the green button (increase) and the yellow button (decrease). If you press the red button again, the minutes start blinking. Then you can set them as well.
+If the red button is pressed again, the alarm is successfully set and the current time is displayed.
 
-TODO: COMPLETE THE TEXT
+For debugging reasons we also programmed that the alarm-time is automatically set to one minute after the time, which is set in the start-method of the code.
 
 
-Features:
-- Display shows current time
-- When the red button is pressed, you can first change the hours for the alarm (+ = green, - = yellow) and when pressed again, the minutes
-- With the white button, you can turn the alarm on or off
-- When the alarm goes off, the Tetris melody is played
-- For better debugging, the alarm is always set to one minute later
+<img src="photos/02/20260507-30.jpg" alt="picture" width="400"/>
 
-Problems:
-- The limited RAM of the Arduino did not allow playing three random melodies (Mario, Tetris, and Pink Panther). Therefore, only Tetris works. When the RAM was overloaded again, it led to the display not showing any information
-
-<img src="photos/02/20260507-30.jpg" alt="profile picture" width="400"/>
-
-<img src="photos/02/20260507-31.jpg" alt="profile picture" width="400"/>
+<img src="photos/02/20260507-31.jpg" alt="picture" width="400"/>
 
 Below is a video showing the functionality of the clock.
 
