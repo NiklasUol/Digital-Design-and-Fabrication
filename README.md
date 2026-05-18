@@ -205,4 +205,4 @@ For debugging reasons we also programmed that the alarm-time is automatically se
 
 Below is a video showing the functionality of the clock.
 
-!!!!!!  TODO: INSERT VIDEO  !!!!!!!
+[Click to watch on YouTube](https://www.youtube.com/watch?v=gtaooIpYjuc)
