@@ -206,3 +206,5 @@ For debugging reasons we also programmed that the alarm-time is automatically se
 Below is a video showing the functionality of the clock.
 
 [Click to watch on YouTube](https://www.youtube.com/watch?v=gtaooIpYjuc)
+
+The arduino code can be found under: [Click to view the code](/arduino_sketches/exercise_02/Alarm_Improved_V2/Alarm_Improved_V2.ino)
