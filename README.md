@@ -261,6 +261,8 @@ And here is the final program!
 
 <img src="photos/03/20260521-9.jpg" alt="picture" width="400"/>
 
+Click here to view the code: [Click to view the code](/arduino_sketches/exercise_03/Pump_Test/Pump_Test.ino)
+
 
 
 ### Task 2: Sensor Interaction
@@ -290,6 +292,7 @@ But our excitement did not last long. Unfortunately, we quickly realized that th
 
 <img src="photos/03/20260521-11.jpg" alt="picture" width="400"/>
 
+Click here to view the code: [Click to view the code](/arduino_sketches/exercise_03/Force_Sensor_Test/Force_Sensor_Test.ino)
 
 
 ### Task 3: Combining Both Parts
@@ -320,3 +323,9 @@ If neither sensor was activated, the pumps stayed off and the cushion remained c
 Last but not least: a short video of our setup in action (sadly not cats this time).
 
 [Video of our setup](photos/03/DF-1080_30_mp4.mp4)
+
+Click here to view the code: [Click to view the code](/arduino_sketches/exercise_03/Pump_With_Force_Sensor/Pump_With_Force_Sensor.ino)
+
+--- 
+
+
