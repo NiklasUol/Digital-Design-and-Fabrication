@@ -208,3 +208,115 @@ Below is a video showing the functionality of the clock.
 [Click to watch on YouTube](https://www.youtube.com/watch?v=gtaooIpYjuc)
 
 The arduino code can be found under: [Click to view the code](/arduino_sketches/exercise_02/Alarm_Improved_V2/Alarm_Improved_V2.ino)
+
+
+
+
+
+
+
+---
+
+## Exercise 3
+
+<img src="photos/03/20260521-15.jpg" alt="picture" width="400"/>
+
+### Task 1: Pneumatic & Electrical Circuit
+
+First, we connected the pumps to the air cushion via the valve. After that, we connected the three MOSFET modules to the Arduino, the two motors, and the external power supply.
+
+Overall, this worked quite smoothly. However, at first we tried to connect the cables to the MOSFET modules without using a screwdriver because we did not have one available. That turned out to be a very bad idea... So we decided to do it properly and asked one of the tutors for a screwdriver instead.
+
+<img src="photos/03/20260521-2.jpg" alt="picture" width="400"/>
+
+Regarding the wiring:
+- We connected the MOSFET signal pin to Arduino pin 11.
+- The MOSFET ground pin was connected to both the Arduino ground and the ground of the external power supply.
+- The MOSFET Vin pin was connected to the positive terminal of the external power supply.
+- Finally, one of the pumps was connected to the V+ and V− outputs of the transistor module.
+
+<img src="photos/03/20260521-3.jpg" alt="picture" width="400"/>
+
+We repeated the same setup for the second pump and for the valve.
+
+<img src="photos/03/20260521-4.jpg" alt="picture" width="400"/>
+
+Afterward, we wrote a small test program that allowed the Arduino to inflate and deflate the cushion using the pumps.
+
+<img src="photos/03/20260521-5.jpg" alt="picture" width="400"/>
+
+Unfortunately, during the first test run, the cushion did not react as expected. The motors were not running, although the LEDs on the MOSFET modules indicated that the transistors themselves were active.
+
+After some debugging, we realized that the ground cable of the external power supply had been connected incorrectly. It should have been connected to the blue negative terminal instead of the green middle terminal. The ground symbol above the green connector had confused us.
+
+<img src="photos/03/20260521-6.jpg" alt="picture" width="400"/>
+
+Once we corrected the wiring, the program worked perfectly. The cushion alternated between inflating and deflating for five seconds each. Between these phases, we inserted a short delay to allow the valve to switch correctly. One pump was responsible for inflation, while the other handled deflation.
+
+<img src="photos/03/20260521-7.jpg" alt="picture" width="400"/>
+
+<img src="photos/03/20260521-8.jpg" alt="picture" width="400"/>
+
+And here is the final program!
+
+<img src="photos/03/20260521-9.jpg" alt="picture" width="400"/>
+
+
+
+### Task 2: Sensor Interaction
+
+In Task 2, we additionally connected a force sensor. Our goal was to inflate and deflate the cushion through touch interaction. Pressing strongly on the sensor should inflate the cushion, while pressing lightly should deflate it.
+
+<img src="photos/03/20260521-10.jpg" alt="picture" width="400"/>
+
+First, we connected the sensor to the Arduino:
+- one pin was connected to an analog input,
+- a 10kΩ pull-down resistor connected the signal line to ground,
+- and the second sensor pin was connected to the Arduino’s 5V output.
+
+We then wrote another test program to determine the sensor threshold values for distinguishing between weak and strong pressure.
+
+Unfortunately, the test program did not work as expected at first :(
+
+As shown in the image, instead of displaying the expected analog values, the serial monitor only showed unreadable symbols and gibberish :((
+
+The issue turned out to be relatively simple: in the code, the string `"Force-Value: "` was concatenated with the measured sensor value, but the concatenation syntax was incorrect.
+
+(Off-topic fun fact: we also struggled quite a bit with spelling the word ~~conce~~ ~~croncat~~ “concatenation.” What an unnecessarily complicated word!)
+
+After fixing the bug, the sensor values were displayed correctly. Perfect!!! 🥳
+
+But our excitement did not last long. Unfortunately, we quickly realized that the force sensor produced rather unreliable measurements. It was difficult to reliably distinguish between light pressure, no pressure, and strong pressure. Therefore, for Task 3 we decided to use a different method for controlling the pumps.
+
+<img src="photos/03/20260521-11.jpg" alt="picture" width="400"/>
+
+
+
+### Task 3: Combining Both Parts
+
+Our idea was the following:
+- inflating the cushion should work via the force sensor,
+- while deflating should be controlled through an additional push button.
+
+We therefore added a button to the breadboard.
+
+As learned in Exercise 2, we connected the button to a digital pin on the Arduino.
+
+<img src="photos/03/20260521-14.jpg" alt="picture" width="400"/>
+
+Finally, we modified the code so that:
+- the force sensor inflates the cushion, and
+- the button deflates it.
+
+The threshold was defined as follows:
+Whenever the measured pressure value exceeded 1020, the cushion inflated. This corresponded to pressing the force sensor very firmly.
+
+As long as the button was held down, the cushion continuously deflated.
+
+If neither sensor was activated, the pumps stayed off and the cushion remained completely still.
+
+<img src="photos/03/20260521-13.jpg" alt="picture" width="400"/>
+
+Last but not least: a short video of our setup in action (sadly not cats this time).
+
+[Video of our setup](photos/03/DF-1080_30_mp4.mp4)
