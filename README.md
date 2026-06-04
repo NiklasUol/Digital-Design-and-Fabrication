@@ -328,4 +328,20 @@ Click here to view the code: [Click to view the code](/arduino_sketches/exercise
 
 --- 
 
+---
 
+## Exercise 5
+
+<img src="" alt="start picture">
+
+After the lecture about CNC-Milling, we were supposed to design a simple wooden 2D candleholder with the program Inkscape.
+Since I personally use candles especially in the christmas season, I wanted to design a star shaped candleholder, which could be used as a christmas decoration.
+
+To be able to draw the form without just the imagination and my artistic skills, I first searched for a picture of a star on the internet, which I could use as a template.
+
+<img src="photos/05/star_template.png" alt="template picture" width="400"/>
+
+After that, I imported the picture into Inkscape and traced the edges with the pen tool.
+To manage to draw the star as symmetrically as possible, I used the alignment tool to align the nodes horizontally or vertically like you can see in the picture.
+
+The shape consists of two lines 
