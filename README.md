@@ -326,16 +326,97 @@ Last but not least: a short video of our setup in action (sadly not cats this ti
 
 Click here to view the code: [Click to view the code](/arduino_sketches/exercise_03/Pump_With_Force_Sensor/Pump_With_Force_Sensor.ino)
 
+
+
+
+
 --- 
 
+# Exercise 4
+
+Today's exercise focused on E-Textiles, which involves electronics sewn into clothing—or more generally, into fabric.
+
+<img src="photos/04/20260528-1.jpg" alt="picture" width="400"/>
+
+After the introductory presentation, my team partner and I decided to sew an airplane onto a patch, similar to the cellphone photo. We wanted to position the five LEDs to be installed under the wings, in the nose, and in the tail—in each case placed between the airplane and the patch.
+
+At that point, however, we had no idea how much work this idea would actually bring us.
+
+But let's start from the beginning.
+
+<img src="photos/04/20260528-3.jpg" alt="picture" width="400"/>
+
+### Step 1: The Design Idea
+
+To somehow transfer the airplane from the Google image onto fabric, we tried several approaches. First, I took a sheet of A4 paper and traced the airplane using a ballpoint pen. This generally worked very well, but it quickly became apparent that the airplane was much too small. Crucially, the battery module still had to fit underneath the airplane—ideally without showing.
+
+Our next idea was to simply draw the airplane freehand onto a sheet of A4 paper. Well, there was actually nothing "simple" about that. My drawing skills are rather limited, and so in the end, the airplane didn't really look like the original model. It was simply too difficult to get the proportions right freehand.
+
+<img src="photos/04/DF.jpg" alt="picture" width="400"/> (Memes provided by Julian) 
+
+That left only one option: designing an airplane on the PC, printing it out, transferring it to the fabric, and then cutting it out.
+
+So, we booted up our laptops and created a suitable model in a drawing program of our choice.
+
+<img src="photos/04/20260528-7.jpg" alt="picture" width="400"/>
+
+Thanks to our tutor, we were able to print it out quickly afterwards. Thanks again for that! :)
+
+<img src="photos/04/20260528-6.jpg" alt="picture" width="400"/>
+
+
+### Step 2: The Model Becomes Reality
+
+The model was then cut out by each of us.
+
+<img src="photos/04/20260528-8.jpg" alt="picture" width="400"/>
+
+Next, we placed it onto the fabric and traced the contours with a ballpoint pen. Working as a pair worked significantly better than doing it alone: while one person held the airplane in place, the other could easily trace the outlines.
+
+<img src="photos/04/20260528-13.jpg" alt="picture" width="400"/>
+
+<img src="photos/04/20260528-16.jpg" alt="picture" width="400"/>
+
+Afterward, we cut out the fabric along the drawn line. The curves in particular were a bit tricky because the fabric was already starting to fray slightly. By this time, about 60% of the tutorial session had already passed, which meant we had to start rushing to sew on the sensors and connect everything to each other and to the battery holder.
+
+<img src="photos/04/20260528-17.jpg" alt="picture" width="400"/>
+
+<img src="photos/04/20260528-21.jpg" alt="picture" width="400"/>
+
+<img src="photos/04/20260528-22.jpg" alt="picture" width="400"/>
+
 ---
+
+### Step 3: Sewing and Connecting the LEDs
+
+In the next step we had to sew the LEDs onto the black background-fabric and connect them with the conductive yarn.
+Since nobody in the course could sew very well, this was a very time-consuming process. To "simplify" the work and be able to see on which places I had to sew the LEDs, I abandoned the original idea of creating the background patch for the airplane,
+which you could see in the picture from before. Instead, I cut out the background fabric in the shape of the airplane as well and sewed the LEDs on top of it.
+
+Nevertheless, the sewing process was still very difficult for me (and if you looked in the faces of the others, seemingly for them too ;)).
+First, you had handle the yarn, get it through the needle, and then sew it through the outlines of the airplane, while connecting it to the positive pins of the LEDs.
+So the LEDs were fastened to the fabric, which was already a great success, in my opinion :)
+
+In the next step I did the same thing for the negative pins of the LEDs, which were in the inner part of the airplane.
+While sewing, I always had to make sure that the positive and negative connections didn't touch each other, otherwise the LEDs would have short-circuited and not worked at all.
+
+<img src="photos/04/20260608_182155.jpg" alt="picture" width="400"/>
+
+The positive and negative connections were then connected to the battery holder, which was placed on the back of the airplane. The battery holder has a switch, which allows us to turn the LEDs on and off.
+
+<img src="photos/04/20260608_182953.jpg" alt="picture" width="400"/>
+
+
+TO BE CONTINUED ......
+
+
 
 ## Exercise 5
 
 <img src="" alt="start picture">
 
 After the lecture about CNC-Milling, we were supposed to design a simple wooden 2D candleholder with the program Inkscape.
-Since I personally use candles especially in the christmas season, I wanted to design a star shaped candleholder, which could be used as a christmas decoration.
+Since I personally use candles especially in the Christmas season, I wanted to design a star shaped candleholder, which could be used as a christmas decoration.
 
 To be able to draw the form without just the imagination and my artistic skills, I first searched for a picture of a star on the internet, which I could use as a template.
 
