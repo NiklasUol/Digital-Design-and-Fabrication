@@ -373,17 +373,13 @@ The model was then cut out by each of us.
 
 Next, we placed it onto the fabric and traced the contours with a ballpoint pen. Working as a pair worked significantly better than doing it alone: while one person held the airplane in place, the other could easily trace the outlines.
 
-<img src="photos/04/20260528-13.jpg" alt="picture" width="400"/>
-
-<img src="photos/04/20260528-16.jpg" alt="picture" width="400"/>
+<img src="photos/04/20260528-13.jpg" alt="picture" width="350"/> <img src="photos/04/20260528-16.jpg" alt="picture" width="350"/>
 
 Afterward, we cut out the fabric along the drawn line. The curves in particular were a bit tricky because the fabric was already starting to fray slightly. By this time, about 60% of the tutorial session had already passed, which meant we had to start rushing to sew on the sensors and connect everything to each other and to the battery holder.
 
-<img src="photos/04/20260528-17.jpg" alt="picture" width="400"/>
+<img src="photos/04/20260528-17.jpg" alt="picture" width="350"/> <img src="photos/04/20260528-21.jpg" alt="picture" width="350"/>
 
-<img src="photos/04/20260528-21.jpg" alt="picture" width="400"/>
-
-<img src="photos/04/20260528-22.jpg" alt="picture" width="400"/>
+<img src="photos/04/20260528-22.jpg" alt="picture" width="350"/>
 
 ---
 
