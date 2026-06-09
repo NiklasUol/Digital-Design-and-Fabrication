@@ -403,11 +403,18 @@ While sewing, I always had to make sure that the positive and negative connectio
 <img src="photos/04/20260608_182155.jpg" alt="picture" width="400"/>
 
 The positive and negative connections were then connected to the battery holder, which was placed on the back of the airplane. The battery holder has a switch, which allows us to turn the LEDs on and off.
+I connected both positive and negative pins for a more redundant connection, which should make the circuit more reliable. The positive pins of the LEDs were connected to the positive terminal of the battery holder, while the negative pins were connected to the negative terminal.
 
 <img src="photos/04/20260608_182953.jpg" alt="picture" width="400"/>
 
+After that, I checked everything again to make sure that there were no short circuits and that all connections were correct. Then I turned on the switch of the battery holder, and ...
+nothing happened :-/
+I thought that maybe there was nevertheless a short circuit somewhere, because it could have been, that I the two poles of the yarn were connection by a little fiber, which I hadn't noticed.
+But then I checked the battery holder and move the battery a bit out of position and suddenly the LEDs started to glow! So the problem was that the battery wasn't making good contact with the terminals of the battery holder. After I fixed that, everything worked perfectly like you can see in the picture below :)
 
-TO BE CONTINUED ......
+<img src="photos/04/20260608_210356.jpg" alt="picture" width="400"/>
+
+To finish the "little" project (which turned out to be quite the challenge), I sewed the front of the airplane over the side with the LEDs, so that all the conductive yarn and the LEDs were hidden and the battery holder was still accessible. 
 
 
 
