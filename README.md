@@ -412,6 +412,14 @@ But then I checked the battery holder and move the battery a bit out of position
 
 To finish the "little" project (which turned out to be quite the challenge), I sewed the front of the airplane over the side with the LEDs, so that all the conductive yarn and the LEDs were hidden and the battery holder was still accessible. 
 
+<img src="photos/04/20260609_191134.jpg" alt="picture" width="350"/> <img src="photos/04/20260609_205536.jpg" alt="picture" width="350"/>
+
+Finally, the airplane was ready for takeoff :)
+
+<img src="photos/04/20260609_205357.jpg" alt="picture" width="400"/>
+
+
+
 
 
 ## Exercise 5
