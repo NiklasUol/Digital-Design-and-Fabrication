@@ -8,20 +8,28 @@
 - [Exercise 1: Electrical Circuits](#exercise-1-electrical-circuits)
   - [Task 1: LED Control Circuit](#task-1-led-control-circuit)
   - [Task 2: Transistor Switch Circuit](#task-2-transistor-switch-circuit)
+  
+
 - [Exercise 2: Introduction to Arduino](#exercise-2-introduction-to-arduino)
   - [Sub-circuit 1 - Connecting the buzzer](#sub-circuit-1---connecting-the-buzzer)
   - [Sub-circuit 2 - Connecting the LED screen](#sub-circuit-2---connecting-the-led-screen)
   - [Sub-circuit 3 - Expanding the setup with a Real Time Clock](#sub-circuit-3---expanding-the-setup-with-a-real-time-clock)
   - [Sub-circuit 4 - Using the Push Button](#sub-circuit-4---using-the-push-button)
   - [Final task - Building the Alarm Clock](#final-task---building-the-alarm-clock)
+  
+
 - [Exercise 3: Sensors & Actuators](#exercise-3-sensors--actuators)
   - [Task 1: Pneumatic & Electrical Circuit](#task-1-pneumatic--electrical-circuit)
   - [Task 2: Sensor Interaction](#task-2-sensor-interaction)
   - [Task 3: Combining Both Parts](#task-3-combining-both-parts)
+  
+
 - [Exercise 4: E-Textiles](#exercise-4-e-textiles)
   - [Step 1: The Design Idea](#step-1-the-design-idea)
   - [Step 2: The Model Becomes Reality](#step-2-the-model-becomes-reality)
   - [Step 3: Sewing and Connecting the LEDs](#step-3-sewing-and-connecting-the-leds)
+  
+
 - [Exercise 5: CNC-Milling](#exercise-5-cnc-milling)
 
 ---
