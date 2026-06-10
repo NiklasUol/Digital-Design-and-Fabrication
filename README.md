@@ -426,14 +426,19 @@ Finally, the airplane was ready for takeoff :)
 
 <img src="" alt="start picture">
 
-After the lecture about CNC-Milling, we were supposed to design a simple wooden 2D candleholder with the program Inkscape.
-Since I personally use candles especially in the Christmas season, I wanted to design a star shaped candleholder, which could be used as a christmas decoration.
+After the lecture about CNC-Milling, we were supposed to design a simple wooden 2D candle holder with the program Inkscape.
+Since I personally use candles especially in the Christmas season, I wanted to design a star shaped candle holder, which could be used as a christmas decoration.
 
 To be able to draw the form without just the imagination and my artistic skills, I first searched for a picture of a star on the internet, which I could use as a template.
 
 <img src="photos/05/star_template.png" alt="template picture" width="400"/>
 
 After that, I imported the picture into Inkscape and traced the edges with the pen tool.
-To manage to draw the star as symmetrically as possible, I used the alignment tool to align the nodes horizontally or vertically like you can see in the picture.
+To manage to draw the star as symmetrically as possible, I used the alignment tool to align the nodes horizontally or vertically like you can see in the pictures below.
 
-The shape consists of two lines 
+<img src="photos/05/star_outline_inkscape.png" alt="picture" width="380"/> <img src="photos/05/star_candle_hole_inkscape.png" alt="picture" width="380"/>
+
+The candle holder consists of two shapes. The first shape is the outer contour of the star, which defines the shape of the candle holder. The second shape is a circle in the middle of the star, which defines were the CNC machine should cut the star out of the wood.
+The inner circle defines the place where the candle should be placed. The diameter of the circle is 39.5 mm, which should be sufficient for a standard tea light candle.
+
+After I finished the design, I exported it as a .svg file and uploaded it in Stud.IP to be milled by Julius with the CNC machine.
