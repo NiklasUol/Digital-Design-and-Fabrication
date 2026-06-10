@@ -410,7 +410,7 @@ Afterward, we cut out the fabric along the drawn line. The curves in particular 
 
 <img src="photos/04/20260528-22.jpg" alt="picture" width="350"/>
 
----
+
 
 ### Step 3: Sewing and Connecting the LEDs
 
@@ -448,12 +448,12 @@ Finally, the airplane was ready for takeoff :)
 <img src="photos/04/20260609_205357.jpg" alt="picture" width="400"/>
 
 
-
+---
 
 
 ## Exercise 5: CNC-Milling
 
-<img src="" alt="start picture">
+<img src="photos/05/20260604_114310.jpg" alt="start picture" width="400"/>
 
 After the lecture about CNC-Milling, we were supposed to design a simple wooden 2D candle holder with the program Inkscape.
 Since I personally use candles especially in the Christmas season, I wanted to design a star shaped candle holder, which could be used as a christmas decoration.
