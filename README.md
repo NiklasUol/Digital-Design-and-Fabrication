@@ -470,4 +470,4 @@ To manage to draw the star as symmetrically as possible, I used the alignment to
 The candle holder consists of two shapes. The first shape is the outer contour of the star, which defines the shape of the candle holder. The second shape is a circle in the middle of the star, which defines were the CNC machine should cut the star out of the wood.
 The inner circle defines the place where the candle should be placed. The diameter of the circle is 39.5 mm, which should be sufficient for a standard tea light candle.
 
-After I finished the design, I exported it as a .svg file and uploaded it in Stud.IP to be milled by Julius with the CNC machine.
+After I finished the design, I exported it as a .svg file and uploaded it in Stud.IP to be milled by Juliusz with the CNC machine.
