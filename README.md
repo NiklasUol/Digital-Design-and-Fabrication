@@ -470,4 +470,13 @@ To manage to draw the star as symmetrically as possible, I used the alignment to
 The candle holder consists of two shapes. The first shape is the outer contour of the star, which defines the shape of the candle holder. The second shape is a circle in the middle of the star, which defines were the CNC machine should cut the star out of the wood.
 The inner circle defines the place where the candle should be placed. The diameter of the circle is 39.5 mm, which should be sufficient for a standard tea light candle.
 
-After I finished the design, I exported it as a .svg file and uploaded it in Stud.IP to be milled by Juliusz with the CNC machine.
+After I finished the design, I exported it as a .svg file and uploaded it in Stud.IP to be milled by Juliusz with the CNC machine. The general process of milling was not just explained in the lecture, but shown to us in a live demonstration by Juliusz.
+In the demonstration, a small candle holder was milled, which didn't take longer than 5 minutes. In preparation the CAD file was converted to a G-code file, which is the format that
+the CNC machine can read. After the file was uploaded to the machine, the wood was fixed and the milling head was calibrated. The height of the head was adjusted so that it barely touched the wood (or a piece of paper above it).
+The calibration of the milling head in relation to the wood is very important to ensure that the machine starts milling at the correct place and no material is wasted.
+This had be done for the x, y, z axis via the control panel of the CNC machine, a remote control and a little "screw" above the head. Then, the machine was started.
+
+<img src="photos/05/20260604_114310.jpg" alt="picture" width="350"/> <img src="photos/05/20260604_114318.jpg" alt="picture" width="350"/>
+
+While milling, the milling head moved along the x, y, z axis like specified in the G-code file and cut the example candle holder. This process was very loud, so we had to wear ear protection.
+The result was a perfectly milled candle holder, which looked exactly like shown in control panel of the CNC machine.
