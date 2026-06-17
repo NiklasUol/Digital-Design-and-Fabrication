@@ -478,5 +478,7 @@ This had be done for the x, y, z axis via the control panel of the CNC machine, 
 
 <img src="photos/05/20260604_114310.jpg" alt="picture" width="350"/> <img src="photos/05/20260604_114318.jpg" alt="picture" width="350"/>
 
+![Milling-Gif](./photos/05/GIF_20260617_191259_362.gif)
+
 While milling, the milling head moved along the x, y, z axis like specified in the G-code file and cut the example candle holder. This process was very loud, so we had to wear ear protection.
 The result was a perfectly milled candle holder, which looked exactly like shown in control panel of the CNC machine.
