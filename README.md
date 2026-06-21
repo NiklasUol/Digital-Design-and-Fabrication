@@ -478,7 +478,18 @@ This had be done for the x, y, z axis via the control panel of the CNC machine, 
 
 <img src="photos/05/20260604_114310.jpg" alt="picture" width="350"/> <img src="photos/05/20260604_114318.jpg" alt="picture" width="350"/>
 
-![Milling-Gif](./photos/05/GIF_20260617_191259_362.gif)
+<img src="./photos/05/GIF_20260617_191259_362.gif" alt="Milling-Gif" width="350"/>
 
 While milling, the milling head moved along the x, y, z axis like specified in the G-code file and cut the example candle holder. This process was very loud, so we had to wear ear protection.
 The result was a perfectly milled candle holder, which looked exactly like shown in control panel of the CNC machine.
+
+## Exercise 7: CAD-Exercises
+
+In this exercise, we were supposed to learn how to use a CAD software to design 3D-Objects.
+Since the course didn't take place in this week, we had to self-study with the software Onshape. There we had to complete the following exercises:
+
+<img src="photos/07/onshape_exercises.png" alt="picture" width="400"/>
+
+Like you can see in the picture below, I completed all exercises successfully.
+
+<img src="photos/07/onshape_training_dashboard.png" alt="picture" width="400"/>
