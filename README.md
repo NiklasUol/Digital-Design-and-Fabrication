@@ -483,6 +483,44 @@ This had be done for the x, y, z axis via the control panel of the CNC machine, 
 While milling, the milling head moved along the x, y, z axis like specified in the G-code file and cut the example candle holder. This process was very loud, so we had to wear ear protection.
 The result was a perfectly milled candle holder, which looked exactly like shown in control panel of the CNC machine.
 
+
+
+## Exercise 6: Laser Cutting
+
+<img src="./photos/06/20260612-12.jpg" alt="picture" width="350"/>
+
+This exercise focused on laser cutting, which is a manufacturing process that uses a laser to cut or engrave different materials.
+After the lecture, we were supposed to design a business card with the program Inkscape. Since you simply could cut the card out of the used wooden plate or engrave it,
+the design could be entirely in 2D. Therefore, we simply had to draw in one plane in Inkscape.
+
+In the first step, I created a rectangle with the rectangle tool, which defined the outer contour of the business card. The dimensions of the rectangle were 89 mm x 51 mm, which is a common size for business cards.
+Because these edges should be cut by the laser cutter later, I set the stroke width to 0.001 mm, which is interpreted by the laser cutter as a cutting line. Higher stroke widths are interpreted
+as lines to be engraved.
+
+Afterwards, I brainstormed a bit about what I could put on the business card. Since I am a computer science student with a lot of interest in development and tinkering,
+I decided to put under my name the text "Software Engineering and more", which should indicate my "future customers" for what I could be hired for ;)
+To allow my customers to contact me, I also put my email address on the card. Since this project were done in the university, I used my university email address for that.
+
+Furthermore, I wanted to add a simple drawing of my profile picture to the card to add a more personal touch to it. Therefore, I took a picture of myself and converted it with ChatGPT into a simpler picture,
+which should be possible to be engraved with the laser cutter. You can see the result in the picture below.
+
+<img src="./photos/06/eaca00a97968bf212ae9a2913eabdb7e2d73274dfa0cf6d5464289e86530a56b.png" alt="picture" width="350"/>
+
+Of course, this picture still was far too complex to be engraved with the laser cutter. Therefore, I asked ChatGPT to simplify the picture even more and to convert it into an SVG.
+Unfortunately, my instruction has been misunderstood by ChatGPT, which resulted in a very abstract picture of me, which was not really recognizable anymore.
+
+<img src="./photos/06/profile_picture_to_simple.png" alt="picture" width="350"/>
+
+After many more failed attempts, I gave up the idea and decided to simply put fitting logos on the left side of the card, which still had a lot of free space.
+I chose a logo of a laptop and one of a gear, which seemed to fit well with my field of study and my interests. The final inkscape-design of the business card can be seen in the picture below.
+
+<img src="./photos/06/inkscape_business_card.png" alt="picture" width="350"/>
+
+
+
+
+
+
 ## Exercise 7: CAD-Exercises
 
 In this exercise, we were supposed to learn how to use a CAD software to design 3D-Objects.
