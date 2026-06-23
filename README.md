@@ -516,6 +516,19 @@ I chose a logo of a laptop and one of a gear, which seemed to fit well with my f
 
 <img src="./photos/06/inkscape_business_card.png" alt="picture" width="350"/>
 
+In the next part of the exercise, we had to manufacture the business card with the laser cutter. Since many people wanted to use the laser cutter at the same time, I had no
+time to that in the regular Thursday time slot. For that reason, I used the laser cutter of the "Department für Informatik" in the university building, to which Julian had access as a Soft Skills Tutor.
+This laser cutter was a different model than the one in the Offis. It was the "Beambox Pro", which was controlled with the software "Beam Studio". There we had to import an SVG file (not a PDF like in the Offis).
+We first tried to load an PDF file to the laser cutter, but it failed since everything was cut out and the text wasn't very fitting anymore like you can see in the picture below.
+
+<img src="./photos/06/20260612-1.jpg" alt="picture" width="350"/>
+
+Therefore, we did the same thing with an SVG file. This process looked a lot more promising. The process took not longer than 5 minutes.
+
+<img src="./photos/06/20260612-3.jpg" alt="picture" width="350"/> <img src="./photos/06/20260612-12.jpg" alt="picture" width="350"/>
+
+TODO: FINISH
+
 
 
 
