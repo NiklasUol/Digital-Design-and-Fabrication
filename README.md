@@ -523,13 +523,15 @@ We first tried to load an PDF file to the laser cutter, but it failed since ever
 
 <img src="./photos/06/20260612-1.jpg" alt="picture" width="350"/>
 
-Therefore, we did the same thing with an SVG file. This process looked a lot more promising. The process took not longer than 5 minutes.
+Therefore, we did the same thing with an SVG file. This process looked a lot more promising and took not longer than 5 minutes.
 
 <img src="./photos/06/20260612-3.jpg" alt="picture" width="350"/> <img src="./photos/06/20260612-12.jpg" alt="picture" width="350"/>
 
-TODO: FINISH
+You can see the final result of the finished business card in the picture below. Overall I am satisfied with the result, although the engraving of the text below the name and the email address could have been a bit more precise.
+Probably the power level of the laser cutter was too high, which caused the laser to burn a bit too much into the wood. I decided to leave it like that and not to repeat the process with a lower power level,
+because the result was still good enough for me and I didn't want to waste more wood of the university than necessary.
 
-
+<img src="./photos/06/20260612-13.jpg" alt="picture" width="350"/>
 
 
 
