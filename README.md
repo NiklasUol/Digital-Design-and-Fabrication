@@ -536,7 +536,7 @@ because the result was still good enough for me and I didn't want to waste more 
 
 
 
-## Exercise 7: CAD-Exercises
+## Exercise 6.5: CAD-Exercises
 
 In this exercise, we were supposed to learn how to use a CAD software to design 3D-Objects.
 Since the course didn't take place in this week, we had to self-study with the software Onshape. There we had to complete the following exercises:
@@ -546,3 +546,8 @@ Since the course didn't take place in this week, we had to self-study with the s
 Like you can see in the picture below, I completed all exercises successfully.
 
 <img src="photos/07/onshape_training_dashboard.png" alt="picture" width="400"/>
+
+
+
+## Exercise 7: 3D-Printing
+
