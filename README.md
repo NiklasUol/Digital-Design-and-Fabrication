@@ -1,6 +1,9 @@
 # Portfolio
 
 ### Digital Design and Fabrication
+
+<img src="photos/01/20260430-4.jpg" alt="picture" height="100"/> <img src="photos/02/20260507-5.jpg" alt="picture" height="100"/> <img src="photos/04/20260609_205357.jpg" alt="picture" height="100"/> <img src="photos/08/Onshape_Part.png" alt="picture" height="100"/>
+
 ### Author: Niklas Schmidt
 
 ### Table of Contents
