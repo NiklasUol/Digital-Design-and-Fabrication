@@ -496,7 +496,9 @@ This had be done for the x, y, z axis via the control panel of the CNC machine, 
 While milling, the milling head moved along the x, y, z axis like specified in the G-code file and cut the example candle holder. This process was very loud, so we had to wear ear protection.
 The result was a perfectly milled candle holder, which looked exactly like shown in control panel of the CNC machine.
 
+After some time has passed we received our own candle holder, which looked really cool considering that it is completely self-made :)
 
+<img src="photos/05/candle_holer_finished.jpg" alt="picture" width="350"/>
 
 ---
 
