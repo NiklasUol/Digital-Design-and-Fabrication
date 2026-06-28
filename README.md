@@ -600,3 +600,23 @@ Furthermore, I did the same for inner edges of the hole in the upper right quart
 
 <img src="photos/08/Onshape_Fillet_Upper_Vertical_Edges.png" alt="picture" width="350"/> <img src="photos/08/Onshape_Fillet_Outer_Vertical_Edges.png" alt="picture" width="350"/>
 <img src="photos/08/Onshape_Fillet_Upper_Right_Hole.png" alt="picture" width="350"/>
+
+This resulted in the final design which you can see in the picture below.
+
+<img src="photos/08/Onshape_Part.png" alt="picture" width="400"/>
+
+I exported the design via the part-studio in Onshape and imported it in the next step in the slicer-software "QIDI-Studio". There I selected all options like described in the
+given slides for the exercise. I had to select the printer "Q2", the filament type "PLA Rapido" and a process-preset, which set the layer height to 0.28mm. After I set all options
+I started the slicing-process, which fortunately finished without errors. This allowed me to see how each layer of the pencil holder would be printed. Here you can the see internal walls
+as well. These are needed to support the whole structure and enable the printer to print the top layer of the walls without any sacking of the filament, while reducing the material cost.
+
+<img src="photos/08/Slice_Process.png" alt="picture" width="350"/> <img src="photos/08/Slice_To_Big.png" alt="picture" width="350"/>
+
+Unfortunately the material cost was still too high. The maximum mass which was allowed for this exercise was 120g. Unfortunately the sliced pencil holder still had a mass of 146g.
+To fix this problem, I used the scale-feature of the slicer-software to scale the pencil holder down in size. After the scaling the width was only 138mm while the length was 92mm.
+This resulted in the desired weight of about 119g which met the requirements.
+
+<img src="photos/08/Slicer_Scaling.png" alt="picture" width="350"/> <img src="photos/08/Slicer.png" alt="picture" width="350"/>
+
+In the final step I exported the sliced design as an 3MF-file and uploaded it along with the step-file from Onshape to Stud.IP.
+I am very excited to see how the printed pencil holder will look in reality and if it will help me to order my desk :)
