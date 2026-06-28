@@ -485,6 +485,10 @@ The result was a perfectly milled candle holder, which looked exactly like shown
 
 
 
+---
+
+
+
 ## Exercise 6: Laser Cutting
 
 <img src="./photos/06/20260612-12.jpg" alt="picture" width="350"/>
@@ -535,6 +539,9 @@ because the result was still good enough for me and I didn't want to waste more 
 
 
 
+---
+
+
 
 ## Exercise 6.5: CAD-Exercises
 
@@ -549,5 +556,27 @@ Like you can see in the picture below, I completed all exercises successfully.
 
 
 
+---
+
+
+
 ## Exercise 7: 3D-Printing
+
+In this exercise, we had the task to design a small 3D-Object of our choice, which will be printed with the 3D-Printer. While smartphone utilities like a case were given as a suggested theme,
+we haven't been limited in our design ideas. Therefore, I brainstormed a bit about the things I still need in my life or for work. Since I already have a smartphone case or stand, I thought about other objects.
+After considering the inspirantional websites given for this exercise, I had the idea that I could use a pencil holder with a little compartment for USB-Sticks. This would improve the order of my desk were often
+pencils and USB-sticks, which I need for work, are laying around all over the place.
+
+First, I have begun drawing a sketch in Onshape (on the top plane). To begin, I draw a rectangle with the size of 150mm * 100mm, because I estimated that this would be enough space for the pencil holder.
+Then, I placed two circles on the inside of the rectangle which should hold my pencils and pens in the future. To ensure that everything looks symmetrical, I place different diagonal construction-lines in the inside of the rectangle,
+which intersections could be used as anchor points of the two circles. Furthermore, I placed a horizontal construction line in the middle of the rectangle, which I used as a mirror line for the two circles.
+The mirroring moreover guaranteed that both circles were equal in their radius all the time. That had the advantage that you could change the size of one circle and the other one would be changed as well automatically.
+
+On the upper right quarter I placed a inner rectangle which should hold a ruler and other utils, which wouldn't fit into the two circular holes. Since the two circles had a radius of 35mm I constrained the rectangle with a height of 35mm too.
+In the right bottom quarter of the rectangle I separated another rectangle from it, which should be the USB compartment. I haven't added walls to it, because I planed to do it with the use of fillet and extrudes (shown later).
+In the following picture you can see the whole sketch:
+
+<img src="photos/08/Onshape_Sketch.png" alt="picture" width="400"/>
+
+
 
