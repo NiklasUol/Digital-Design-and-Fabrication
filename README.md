@@ -574,9 +574,29 @@ The mirroring moreover guaranteed that both circles were equal in their radius a
 
 On the upper right quarter I placed a inner rectangle which should hold a ruler and other utils, which wouldn't fit into the two circular holes. Since the two circles had a radius of 35mm I constrained the rectangle with a height of 35mm too.
 In the right bottom quarter of the rectangle I separated another rectangle from it, which should be the USB compartment. I haven't added walls to it, because I planed to do it with the use of fillet and extrudes (shown later).
-In the following picture you can see the whole sketch:
+The following picture shows the whole sketch:
 
 <img src="photos/08/Onshape_Sketch.png" alt="picture" width="400"/>
 
+After the sketch was finished I had to begin to create the 3D object of it. To do that, I used extrudes in the first step. To give the pencil holder a more stylish look,
+I had the idea to give every hole / quarter of the sketch another height. Starting from the upper left quarter I used four different extrudes (excluding the holes) with different heights for every quarter.
+The heights were 60, 50 and 40mm for the 3 holes and 20mm for the USB compartment.
 
+<img src="photos/08/Onshape_Extrude_Upper_Left.png" alt="picture" width="350"/> <img src="photos/08/Onshape_Extrude_Right_Bottom.png" alt="picture" width="350"/>
 
+Looking from above, I noticed that the holes of the pencil holder still had no bottom and the pencils would just fall through, if you lift the pencil holder.
+To fix this issue, I added extrudes for the 3 holes from the bottom. For the height I chose 7mm which should be enough for the bottom.
+
+<img src="photos/08/Onshape_Bottom_Extrude.png" alt="picture" width="350"/> <img src="photos/08/Onshape_Bottom_Finished.png" alt="picture" width="350"/>
+
+Since everything looked a bit cheap, I began using fillets to round out the edges and make the look of the pencil holder more modern.
+First, I used the fillet-tool with a radius of 6mm to round out the edges laying on the sketch plane. Then I used the newly added inner edges of the USB compartment to create
+a new extrude removing 13mm in height of the material. This resulted in a notch, from which the USB-Sticks shouldn't slide out.
+
+<img src="photos/08/Onshape_Fillet_Plane_Edges.png" alt="picture" width="350"/> <img src="photos/08/Onshape_Extrude_USB_Compartment.png" alt="picture" width="350"/>
+
+In the next step I added the same fillet that I have already applied to the sketch-plane-edges to the vertical ones in the inner and outer structure of the pencil holder.
+Furthermore, I did the same for inner edges of the hole in the upper right quarter, so that every hole and edge is rounded and everything follows the same style.
+
+<img src="photos/08/Onshape_Fillet_Upper_Vertical_Edges.png" alt="picture" width="350"/> <img src="photos/08/Onshape_Fillet_Outer_Vertical_Edges.png" alt="picture" width="350"/>
+<img src="photos/08/Onshape_Fillet_Upper_Right_Hole.png" alt="picture" width="350"/>
