@@ -32,6 +32,15 @@
 
 - [Exercise 5: CNC-Milling](#exercise-5-cnc-milling)
 
+
+- [Exercise 6: Laser cutting](#exercise-6-laser-cutting)
+
+
+- [Exercise 6.5: CAD Exercises](#exercise-65-cad-exercises)
+
+
+- [Exercise 7: 3D-Printing](#exercise-7-3d-printing)
+
 ---
 
 ## Exercise 1: Electrical Circuits
