@@ -2,8 +2,8 @@
 
 ### Digital Design and Fabrication
 
-<img src="photos/01/20260430-4.jpg" alt="picture" height="100"/> <img src="photos/02/20260507-5.jpg" alt="picture" height="100"/> <img src="photos/03/20260521-7.jpg" alt="picture" height="100"/> <img src="photos/04/20260609_205357.jpg" alt="picture" height="100"/>
-<img src="photos/05/candle_holer_finished.jpg" alt="picture" height="100"/> <img src="photos/06/20260612-12.jpg" alt="picture" height="100"/> <img src="photos/08/Onshape_Part.png" alt="picture" height="100"/>
+<img src="photos/01/20260430-4.jpg" alt="picture" height="130"/> <img src="photos/02/20260507-5.jpg" alt="picture" height="130"/> <img src="photos/03/20260521-7.jpg" alt="picture" height="130"/> <img src="photos/04/20260609_205357.jpg" alt="picture" height="130"/>
+<img src="photos/05/candle_holer_finished.jpg" alt="picture" height="130"/> <img src="photos/06/20260612-12.jpg" alt="picture" height="130"/> <img src="photos/08/Onshape_Part.png" alt="picture" height="130"/>
 
 ### Author: Niklas Schmidt
 
