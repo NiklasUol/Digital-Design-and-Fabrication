@@ -635,3 +635,12 @@ This resulted in the desired weight of about 119g which met the requirements.
 
 In the final step I exported the sliced design as an 3MF-file and uploaded it along with the step-file from Onshape to Stud.IP.
 I am very excited to see how the printed pencil holder will look in reality and if it will help me to order my desk :)
+
+...
+
+One week later our printed 3D-Objects have been made and were given to us. I am very happy with the result and as you can see in the pictures below, the pencil holder
+is doing his job like a good pencil holder should do it ;). The pecils or pens are holding without a risk of dropping out and there is enough space for my USB-Sticks
+in the compartment on the right front. Furthermore, I noticed that the pencil holder is suitable for holding remotes as well. Therefore, I will be able to place my tv- or
+light remote inside of it. All in all, I would say that the pecil holder makes a great improvement to my desk and its order :)
+
+<img src="photos/08/20260702_123755(1).jpeg" alt="picture" width="350" height="400"/> <img src="photos/08/20260702_151646(1).jpg" alt="picture" width="350" height="400"/>
